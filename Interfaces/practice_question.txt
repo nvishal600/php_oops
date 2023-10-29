@@ -1,0 +1,38 @@
+Q:01) Simple Interface Implementation:
+Define an interface called Printable with a method printData(). Create a class Document that implements this interface and provides a basic implementation for printData(). Use this class to print a sample document.
+
+Q:02) Calculator Interface:
+Create an interface Calculator with methods for basic mathematical operations such as add(), subtract(), multiply(), and divide(). Implement this interface in a class called BasicCalculator, and demonstrate its usage by performing some basic calculations.
+
+Q:03) Clickable Interface:
+Define an interface Clickable with a method click(). Create a class Button that implements this interface and provides a simple implementation for the click() method. When you call the click() method on a button object, it should display a message like "Button clicked."
+
+Q:04) Shape Interface:
+Define an interface Shape with a method getArea(). Implement this interface in classes representing different shapes, such as Circle and Square. Calculate and display the areas of instances of these shape classes.
+
+Q:05) Animal Interface:
+Create an interface Animal with a method makeSound(). Implement this interface in classes representing animals like Dog and Cat. When you call makeSound() on an instance of these classes, they should make the corresponding animal sounds.
+
+Q:06) User Interface Elements:
+Define an interface UIElement with a method render(). Create classes for different UI elements such as Button, Textbox, and Checkbox, each implementing the UIElement interface. Call the render() method on these UI elements to display their respective rendering behavior.
+
+Q:07) Logger Interface:
+Define an interface Logger with a method logMessage($message). Create two classes, FileLogger and ScreenLogger, that implement this interface and log messages to a file and the screen, respectively. Log a sample message using both loggers.
+
+Q:08) Payment Interface:
+Create an interface PaymentMethod with a method processPayment($amount). Implement this interface in classes representing different payment methods like CreditCard and PayPal. Process a payment using both payment methods.
+
+Q:09) Vehicle Interface:
+Define an interface Vehicle with a method startEngine(). Implement this interface in classes representing different vehicles like Car and Bicycle. When you call startEngine() on these vehicle instances, they should display a message indicating the engine start.
+
+Q:10) Email Sender Interface:
+Create an interface EmailSender with a method sendEmail($to, $subject, $message). Implement this interface in a class called EmailService and use it to send a sample email.
+
+Q:11) Basic Interface Implementation:
+Define an interface Shape with a method calculateArea(). Create two classes, Circle and Rectangle, which implement this interface and provide the implementation for calculateArea(). Test the classes by calculating and displaying the areas of a circle and a rectangle.
+
+Q:12) Multiple Interfaces:
+Create two interfaces, Driveable and Flyable, each with a method start(). Create a class Car that implements Driveable and a class Plane that implements Flyable. Implement the start() method differently in each class.
+
+Q:13) Interface Inheritance:
+Define an interface Animal with a method makeSound(). Create two interfaces, Mammal and Bird, which extend the Animal interface and add their own methods, giveBirth() and layEggs(), respectively. Implement a class Dog that implements Mammal and a class Sparrow that implements Bird, and provide implementations for all the methods.

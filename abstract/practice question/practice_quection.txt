@@ -1,0 +1,17 @@
+*****php abstract class practice programming questions****
+
+Q:1 Vehicle Hierarchy: Create an abstract class called Vehicle with properties for the number of wheels and a method start(). Create two subclasses, Car and Motorcycle, that extend the Vehicle class and provide specific implementations for the start() method. -- done
+
+Q:2 Employee Management: Create an abstract class Employee with properties for employee name and ID. Implement an abstract method calculateSalary(). Create two subclasses, HourlyEmployee and SalariedEmployee, which extend the Employee class and implement the calculateSalary() method based on their pay structures. -- done
+
+Q:3 Geometric Shapes: Create an abstract class GeometricShape with properties for color and fill status. Implement an abstract method draw(). Create two subclasses, Circle and Rectangle, which extend the GeometricShape class and implement the draw() method to display information about the shape.
+
+Q:4 Animal Hierarchy: Create an abstract class Animal with properties for name and species. Implement an abstract method makeSound(). Create two subclasses, Dog and Cat, which extend the Animal class and implement the makeSound() method to represent the sounds these animals make.
+
+Q:5 Library Catalog: Create an abstract class LibraryItem with properties for title and author. Implement abstract methods checkOut() and checkIn(). Create two subclasses, Book and DVD, which extend the LibraryItem class and provide concrete implementations for checking in and checking out.
+
+Q:6 Payment Gateway: Create an abstract class PaymentGateway with an abstract method processPayment(). Then, create two concrete classes, PayPalGateway and CreditCardGateway, which extend the PaymentGateway class and implement the processPayment() method.
+
+Q:7 Plugin System: Simulate a simple plugin system. Create an abstract class Plugin with a method execute(). Then, create multiple concrete plugin classes that extend the Plugin class and provide their own implementation for the execute() method. Write a script that runs these plugins.
+
+Q:8 Vehicle Rental System: Implement an abstract class Vehicle with properties for vehicle type and rental cost per day. Create two subclasses, Car and Motorcycle, which extend the Vehicle class and provide specific implementations for calculating the rental cost based on the number of days a customer rents the vehicle. 
